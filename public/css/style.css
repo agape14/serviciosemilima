@@ -1,4 +1,5 @@
 #search {
+    /*¿Que estás buscando?*/
     padding: 40px 20px;
     text-align: center;
     background-image: url("/images/background/busqueda.png");
@@ -44,6 +45,7 @@
 }
 
 .form-group input[type="submit"] {
+    /*Btn Buscar*/
     background: black;
     /* Fondo negro */
     color: white;
@@ -60,8 +62,9 @@
     background: #333;
     /* Cambio de color al pasar el mouse */
 }
-
-/* Sección de fondo celeste */
+/* Termino botones de búsqueda */
+/* -------------------------- */
+/* Sección Revista inmobiliaria */
 .revista-section {
     background-color: #27ade2;
     /* Color celeste */
@@ -87,7 +90,9 @@
 }
 
 .revista-section h3.azul {
-    color: #09097a;
+    color: #02023f;
+    font-weight: bold;
+
     /* Color azul */
 }
 
@@ -100,7 +105,7 @@
 
 /* Estilos para el botón */
 .revista-section .boton {
-    background-color: #09097a;
+    background-color: #04044e;
     /* Color azul */
     color: yellow;
     padding: 10px 20px;
@@ -130,8 +135,8 @@
     /* Limita el tamaño máximo */
     z-index: 0;
 }
-
-/* Sección de fondo con imagen */
+/*---------------------------*/
+/* Sección Para mas consulta */
 .contacto-section {
     background-image: url("/images/background/contact.png");
     /* Ruta de la imagen de fondo */
@@ -199,8 +204,8 @@
     /* Tamaño del ícono */
     height: 20px;
 }
-
-/* Sección de columnas */
+/*------------------------------------------*/
+/* Sección de columnas Nuestros Servicios */
 .columnas-section {
     display: flex;
     justify-content: space-around;

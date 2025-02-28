@@ -1,0 +1,252 @@
+#search {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url('images/background/busqueda.png');
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
+    /* Cubre toda la sección */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que se repita la imagen */
+    color: white;
+    /* Color del texto para que contraste con el fondo */
+  }
+
+  .search-section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .form-field label {
+    font-weight: normal;
+  }
+
+  .form-field select,
+  .form-field input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group input[type="submit"] {
+    background: black;
+    /* Fondo negro */
+    color: white;
+    /* Letras blancas */
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background: #333;
+    /* Cambio de color al pasar el mouse */
+  }
+
+  /* Sección de fondo celeste */
+  .revista-section {
+    background-color: #27ade2;
+    /* Color celeste */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Contenedor del texto y el botón */
+  .texto-container {
+    max-width: 600px;
+    z-index: 1;
+  }
+
+  /* Estilos para los textos */
+  .revista-section h3 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .revista-section h3.azul {
+    color: #09097a;
+    /* Color azul */
+  }
+
+  .revista-section h3.blanco {
+    color: white;
+    /* Color blanco */
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  /* Estilos para el botón */
+  .revista-section .boton {
+    background-color: #09097a;
+    /* Color azul */
+    color: yellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    /* Radio de 20px */
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+
+  .revista-section .boton:hover {
+    background-color: #0000CC;
+    /* Color azul más oscuro al pasar el mouse */
+  }
+
+  /* Estilos para la imagen de la revista */
+  .revista-section .imagen-revista {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    /* Ajusta la altura de la imagen */
+    max-height: 300px;
+    /* Limita el tamaño máximo */
+    z-index: 0;
+  }
+
+  /* Sección de fondo con imagen */
+  .contacto-section {
+    background-image: url('/images/background/contact.png');
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
+    /* Cubre toda la sección */
+    background-position: center;
+    /* Centra la imagen */
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Estilos para el texto principal */
+  .contacto-section h3 {
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+    color: white;
+  }
+
+  /* Contenedor de botones */
+  .botones-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Espacio entre botones */
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para los botones */
+  .contacto-section .boton {
+    background-color: yellow;
+    /* Fondo amarillo */
+    color: rgb(20, 20, 24);
+    /* Texto azul */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    /* Radio de 20px */
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Espacio entre ícono y texto */
+    transition: background-color 0.3s;
+  }
+
+  .contacto-section .boton:hover {
+    background-color: #FFD700;
+    /* Color amarillo más oscuro al pasar el mouse */
+  }
+
+  /* Estilos para el texto del correo */
+  .contacto-section .correo {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 20px;
+  }
+
+  /* Estilos para los íconos */
+  .contacto-section .icono {
+    width: 20px;
+    /* Tamaño del ícono */
+    height: 20px;
+  }
+
+  /* Sección de columnas */
+  .columnas-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: white;
+  }
+
+  /* Estilos para cada columna */
+  .columna {
+    text-align: center;
+    max-width: 200px;
+  }
+
+  /* Estilos para el ícono */
+  .columna img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para el título */
+  .columna h5 {
+    font-size: 1rem;
+    color: black;
+    margin: 0 0 15px 0;
+  }
+
+  /* Estilos para el botón */
+  .columna .boton {
+    background-color: white;
+    color: #00BFFF;
+    /* Color celeste */
+    padding: 10px 20px;
+    border: 2px solid #00BFFF;
+    /* Borde celeste */
+    border-radius: 20px;
+    /* Radio de 20px */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Efecto hover para el botón */
+  .columna .boton:hover {
+    background-color: #00BFFF;
+    /* Fondo celeste */
+    color: white;
+    /* Texto blanco */
+  }

@@ -6,7 +6,7 @@
 <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-        <h1>aca estamos en nosotros</h1>
+        <h1>aca estamos en nosotros ---- correcion</h1>
     </section>
 </main>
 

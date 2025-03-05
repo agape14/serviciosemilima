@@ -58,7 +58,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h4>¿QUE ESTAS</h4>
-          <h2>BUSCANDO?</h2>
+          <h2 class="line-texto">BUSCANDO?</h2>
           <h6>ENCUENTRA EL INMUEBLE IDEAL PARA TI</h6>
         </div><!-- End Search Title -->
         <div class="row justify-content-center">
@@ -142,7 +142,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h4>NUESTROS</h4>
-        <h2>SERVICIOS</h2>
+        <h2 class="line-texto">SERVICIOS</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -199,7 +199,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>DESTACADOS</h2>
+        <h2 class="line-texto">DESTACADOS</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">

@@ -102,14 +102,14 @@
     <!--/Fin Seccion segunda de opciones de subasta-->
     <!--/Seccion tercera contacto de subasta-->
     <div class="section-subasta-contacto">
-        <div class="left-column">
+        <div class="left-column-contacto">
           <div>
           <h3 class="blue-text">HAZ TU SUBASTA</h3>
           <h3 class="green-text">CON NOSOTROS</h3>
            <img src="images/subasta/img/subasta-contacto.png" alt="Descripción de la imagen">
             </div>
         </div>
-        <div class="right-column">
+        <div class="right-column-contacto">
             <form class="contact-form">
                 <div class="form-row">
                     <input type="text" placeholder="Nombre Completo">

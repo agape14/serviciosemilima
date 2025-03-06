@@ -166,7 +166,7 @@
           <div class="columna">
             <img src="images/services/icon3.png" alt="Ícono 3">
             <h5>SUBASTAS PÚBLICAS <br>Y PRIVADAS</h5>
-            <button class="boton">Ver más</button>
+            <button class="boton"><a href="subasta">Ver más</a></button>
           </div>
 
           <!-- Columna 4 -->

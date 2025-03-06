@@ -1,4 +1,5 @@
 #search {
+    /*¿Que estás buscando?*/
     padding: 40px 20px;
     text-align: center;
     background-image: url("/images/background/busqueda.png");
@@ -44,6 +45,7 @@
 }
 
 .form-group input[type="submit"] {
+    /*Btn Buscar*/
     background: black;
     /* Fondo negro */
     color: white;
@@ -60,8 +62,9 @@
     background: #333;
     /* Cambio de color al pasar el mouse */
 }
-
-/* Sección de fondo celeste */
+/* Termino botones de búsqueda */
+/* -------------------------- */
+/* Sección Revista inmobiliaria */
 .revista-section {
     background-color: #27ade2;
     /* Color celeste */
@@ -87,7 +90,9 @@
 }
 
 .revista-section h3.azul {
-    color: #09097a;
+    color: #02023f;
+    font-weight: bold;
+
     /* Color azul */
 }
 
@@ -100,7 +105,7 @@
 
 /* Estilos para el botón */
 .revista-section .boton {
-    background-color: #09097a;
+    background-color: #04044e;
     /* Color azul */
     color: yellow;
     padding: 10px 20px;
@@ -130,8 +135,8 @@
     /* Limita el tamaño máximo */
     z-index: 0;
 }
-
-/* Sección de fondo con imagen */
+/*---------------------------*/
+/* Sección Para mas consulta */
 .contacto-section {
     background-image: url("/images/background/contact.png");
     /* Ruta de la imagen de fondo */
@@ -164,7 +169,7 @@
 
 /* Estilos para los botones */
 .contacto-section .boton {
-    background-color: yellow;
+    background-color: #ffe100;
     /* Fondo amarillo */
     color: rgb(20, 20, 24);
     /* Texto azul */
@@ -182,7 +187,7 @@
 }
 
 .contacto-section .boton:hover {
-    background-color: #ffd700;
+    background-color: #b19d04;
     /* Color amarillo más oscuro al pasar el mouse */
 }
 
@@ -199,8 +204,8 @@
     /* Tamaño del ícono */
     height: 20px;
 }
-
-/* Sección de columnas */
+/*------------------------------------------*/
+/* Sección de columnas Nuestros Servicios */
 .columnas-section {
     display: flex;
     justify-content: space-around;
@@ -250,3 +255,342 @@
     color: white;
     /* Texto blanco */
 }
+/*------------------------------------------*/
+
+/* Estilos para el texto h2 con lineas amarillas */
+.line-texto {
+    color:var(--heading-color);
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+  }
+
+  /* Línea amarilla debajo del texto */
+  .line-texto::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 5px;
+    background: #ffe100;
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+  }
+
+  /* Pestañas --------------------------------------------------
+  /* Comprar, vender, alquilar */
+.tab-content {
+    display: none;
+}
+.tab:target .tab-content,
+.tab:last-of-type .tab-content {
+    display: block;
+}
+.tab:target ~ .tab:last-of-type .tab-content {
+    display: none;
+}
+/* esto es para posicionar las pestañas correctamente */
+.tab-container {
+    width: 80%;
+    max-width: 120em;
+    position: relative;
+    padding-top: var(--tabs-height); /* en esta zona colocaremos las pestañas */
+}
+#tab1 > a {
+    --tabs-position: 0;
+}
+#tab2 > a {
+    --tabs-position: 1;
+}
+#tab3 > a {
+    --tabs-position: 2;
+}
+#tab4 > a {
+    --tabs-position: 3;
+}
+#tab5 > a {
+    --tabs-position: 4;
+}
+#tab6 > a {
+    --tabs-position: 5;
+}
+#tab7 > a {
+    --tabs-position: 6;
+}
+#tab8 > a {
+    --tabs-position: 7;
+}
+#tab9 > a {
+    --tabs-position: 8;
+}
+.tab > a {
+    text-align: center;
+    position: absolute;
+    width: calc(var(--tabs-width));
+    height: calc(var(--tabs-height) + var(--tabs-border-size));
+    top: 0;
+    left: calc(
+        var(--tabs-width) * var(--tabs-position)
+    ); /* posición de cada pestaña */
+}
+/* más aspecto */
+.tabs {
+    padding: 10px;
+    color: var(--tabs-text-color);
+    padding-left: 20%;
+}
+.tab-content {
+    background-color: var(--tabs-lite-color);
+    padding: 80px;
+    border: var(--tabs-border-size) solid var(--tabs-border-color);
+    border-radius: 0 10px 10px 10px;
+    position: relative;
+    z-index: 100;
+}
+.tab > a {
+    background-color: var(--tabs-dark-color);
+    padding: 10px;
+    border: var(--tabs-border-size) solid var(--tabs-border-color);
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+}
+.tab:target > a,
+.tab:last-of-type > a {
+    background-color: var(--tabs-lite-color);
+    z-index: 200;
+}
+.tab:target ~ .tab:last-of-type > a {
+    background-color: var(--tabs-dark-color);
+    z-index: 0;
+}
+/*-----------------------------*/
+/* seccion primera de subasta */
+/*-----------------------------*/
+
+
+.section-subasta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.left-column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.right-column {
+    width: 50%;
+    background-color: #004d85;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #ffd700 50px, #ffffff 50px);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 90%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.custom-button .icon {
+    background-color: #ffd700;
+    color: #004d85;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.custom-button .text {
+    color: #004d85;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 20px;
+}
+/*-----------------------------*/
+/* fin seccion primera de subasta */
+/*-----------------------------*/
+/*-----------------------------*/
+/* seccion segunda de subasta */
+/*-----------------------------*/
+
+.section-opciones {
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+h3 {
+    color:#069289;
+    text-align: left;
+    margin-left: 120px;
+    font: bold;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.option {
+    width: 243px;
+    height: 395px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.info {
+    
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 94%;
+    padding-right: 5px;
+}
+
+.info p {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    font: bold;
+}
+
+.more-info {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    background-color: white;
+    color: red;
+}
+
+.view-all {
+    background-color: #034a84;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.view-all:hover {
+    background-color: yellow;
+    color: black;
+}
+/*-----------------------------*/
+/* fin seccion segunda de subasta */
+/*-----------------------------*/
+/*-----------------------------*/
+/* seccion tercera contacto de subasta */
+/*-----------------------------*/
+
+.section-subasta-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.left-column-contacto, .right-column-contacto {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-column-contacto {
+    text-align: center;
+}
+
+.blue-text {
+    color: #004d85;
+    
+}
+
+.green-text {
+    color: green;
+}
+
+.left-column-contacto img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+.form-row textarea {
+    height: 100px;
+}
+
+.form-row button {
+    background-color: #004d85;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-row button:hover {
+    background-color: yellow;
+    color: black;
+}
+/*-----------------------------*/
+/* fin seccion tercera contacto de subasta */
+/*-----------------------------*/

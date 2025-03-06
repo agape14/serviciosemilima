@@ -58,10 +58,10 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h4>¿QUE ESTAS</h4>
-          <h2>BUSCANDO?</h2>
+          <h2 class="line-texto">BUSCANDO?</h2>
           <h6>ENCUENTRA EL INMUEBLE IDEAL PARA TI</h6>
         </div><!-- End Search Title -->
-        <div class="row justify-content-center">
+        <div >
           <div class="tabs">
             <div class="tab-container">
               <div id="tab3" class="tab">
@@ -142,7 +142,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h4>NUESTROS</h4>
-        <h2>SERVICIOS</h2>
+        <h2 class="line-texto">SERVICIOS</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -166,7 +166,7 @@
           <div class="columna">
             <img src="images/services/icon3.png" alt="Ícono 3">
             <h5>SUBASTAS PÚBLICAS <br>Y PRIVADAS</h5>
-            <button class="boton">Ver más</button>
+            <button class="boton"><a href="subasta">Ver más</a></button>
           </div>
 
           <!-- Columna 4 -->
@@ -199,7 +199,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>DESTACADOS</h2>
+        <h2 class="line-texto">DESTACADOS</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">

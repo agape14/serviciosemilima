@@ -10,8 +10,15 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="nosotros">NOSOTROS</a></li>
-          <li><a href="#">SERVICIOS</a></li>
+          <li><a href="#">NOSOTROS</a></li>
+          <li class="dropdown"><a href="#">SERVICIOS<i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Asesoría Inmobiliaria</a></li>
+              <li><a href="#">Saneamiento Físico Legal</a></li>
+              <li><a href="subasta">Subastas Públicas y Privadas</a></li>
+              <li><a href="#">Administración de Patrimonio Inmobiliario</a></li>
+            </ul>
+          </li>
           <li><a href="#">PROPIEDADES</a></li>
           <li><a href="#">EMPRESAS</a></li>
           <li><a href="#" class="btn-contact">Contáctenos</a></li>
@@ -21,3 +28,5 @@
 
     </div>
   </header>
+
+ 

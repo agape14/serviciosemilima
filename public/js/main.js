@@ -29,7 +29,14 @@
 	/**
 	 * Aplicar la clase
 	 */
-
+	window.addEventListener('scroll', function() {
+		const header = document.getElementById('header');
+		if (window.scrollY > 150) {
+		  header.style.backgroundColor = 'black';
+		} else {
+		  header.style.backgroundColor = 'transparent';
+		}
+	  });
 	/**
 	 * Mobile nav toggle
 	 */
@@ -68,14 +75,14 @@
 	});
 
 	/**
-	 * Preloader, SE COMENTO EL PREOLADER
+	 * Preloader
 	 */
-	/*const preloader = document.querySelector('#preloader');
+	const preloader = document.querySelector('#preloader');
 	if (preloader) {
 		window.addEventListener('load', () => {
 			preloader.remove();
 		});
-	}*/
+	}
 
 	/**
 	 * Scroll top button

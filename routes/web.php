@@ -7,6 +7,6 @@ Route::get('/', function () {
     return view('pages.index');
 })->name('home');
 
-Route::get('/nosotros', function () {
-    return view('pages.nosotros');
-})->name('nosotros');
+Route::get('/subasta', function () {
+    return view('pages.subasta');
+})->name('subasta');

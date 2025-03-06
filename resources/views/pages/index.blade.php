@@ -61,7 +61,7 @@
           <h2 class="line-texto">BUSCANDO?</h2>
           <h6>ENCUENTRA EL INMUEBLE IDEAL PARA TI</h6>
         </div><!-- End Search Title -->
-        <div class="row justify-content-center">
+        <div >
           <div class="tabs">
             <div class="tab-container">
               <div id="tab3" class="tab">

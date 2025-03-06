@@ -365,3 +365,232 @@
     background-color: var(--tabs-dark-color);
     z-index: 0;
 }
+/*-----------------------------*/
+/* seccion primera de subasta */
+/*-----------------------------*/
+
+
+.section-subasta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.left-column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.right-column {
+    width: 50%;
+    background-color: #004d85;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #ffd700 50px, #ffffff 50px);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 90%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.custom-button .icon {
+    background-color: #ffd700;
+    color: #004d85;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.custom-button .text {
+    color: #004d85;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 20px;
+}
+/*-----------------------------*/
+/* fin seccion primera de subasta */
+/*-----------------------------*/
+/*-----------------------------*/
+/* seccion segunda de subasta */
+/*-----------------------------*/
+
+.section-opciones {
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+h3 {
+    color:#069289;
+    text-align: left;
+    margin-left: 120px;
+    font: bold;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.option {
+    width: 243px;
+    height: 395px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.info {
+    
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 94%;
+    padding-right: 5px;
+}
+
+.info p {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    font: bold;
+}
+
+.more-info {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    background-color: white;
+    color: red;
+}
+
+.view-all {
+    background-color: #034a84;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.view-all:hover {
+    background-color: yellow;
+    color: black;
+}
+/*-----------------------------*/
+/* fin seccion segunda de subasta */
+/*-----------------------------*/
+/*-----------------------------*/
+/* seccion tercera contacto de subasta */
+/*-----------------------------*/
+
+.section-subasta-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.left-column, .right-column {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.blue-text {
+    color: #004d85;
+    
+}
+
+.green-text {
+    color: green;
+}
+
+.left-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-row input, .form-row textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+.form-row textarea {
+    height: 100px;
+}
+
+.form-row button {
+    background-color: #004d85;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-row button:hover {
+    background-color: yellow;
+    color: black;
+}
+/*-----------------------------*/
+/* fin seccion tercera contacto de subasta */
+/*-----------------------------*/

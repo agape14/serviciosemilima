@@ -1,82 +1,50 @@
 @extends('layouts.app')
 
-@section('title', 'Nosotros - Servicio SemiLima')
+@section('title', 'Servicios - Servicio SemiLima')
 
 @section('content')
 <main class="main">
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item active">
-          <img src="images/subasta/hero-carousel/hero-carousel-1.png" alt="">
-
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="images/subasta/hero-carousel/hero-carousel-2.png" alt="">
-          <div class="carousel-container">
-            <!--div>
-              <p>Doral, Florida</p>
-              <h2><span>247</span> Venda Road Five</h2>
-              <a href="property-single.html" class="btn-get-started">sale | $ 356.000</a>
-            </div-->
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="images/subasta/hero-carousel/hero-carousel-3.png" alt="">
-          <div class="carousel-container">
-            <!--div>
-              <p>Doral, Florida</p>
-              <h2><span>247</span> Vitra Road three</h2>
-              <a href="property-single.html" class="btn-get-started">rent | $ 3.000</a>
-            </div-->
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
-        <ol class="carousel-indicators"></ol>
-
+    <section id="section">
+      <div class="section-interno">
+      <img src="images/subasta/hero-carousel/hero-carousel-1.png" alt="" >
       </div>
-
     </section><!-- /Hero Section -->
     <!--/Seccion primera de imagen de subasta-->
     <div class="section-subasta">
+        <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h4>SUBASTAS PÚBLICAS</h4>
+        <h2 class="line-texto">Y PRIVADAS</h2>
+      </div><!-- End Section Title -->
+      <div class="container">
         <div class="left-column">
             <img src="images/subasta/img/subasta-precios.png" alt="Descripción de la imagen">
         </div>
         <div class="right-column">
             <button class="custom-button">
-                <img src="images/subasta/img/ico_lupa.png" alt="Lupa" class="icono">
+                <img src="images/subasta/img/bot subasta 1.png" alt="Lupa" class="icono">
                 <span class="text">ENCUENTRA TU TERRENO</span>
             </button>
             <button class="custom-button">
-            <img src="images/subasta/img/ico_compra.png" alt="Cash" class="icono">
+            <img src="images/subasta/img/bot subasta 2.png" alt="Cash" class="icono">
                 <span class="text">COMPRA TU BASE</span>
             </button>
             <button class="custom-button">
-            <img src="images/subasta/img/ico_wa.png" alt="Wa" class="icono">
+            <img src="images/subasta/img/bot subasta 3.png" alt="Wa" class="icono">
                 <span class="text">CONTÁCTANOS</span>
             </button>
             <button class="custom-button">
-            <img src="images/subasta/img/ico_pasos.png" alt="Doc" class="icono">
+            <img src="images/subasta/img/bot subasta 4.png" alt="Doc" class="icono">
                 <span class="text">PASOS PARA LA INSCRIPCIÓN</span>
             </button>
+        </div>
         </div>
     </div>
 <!--/fin Seccion primera de imagen de subasta-->
 <!--/Seccion segunda de opciones de subasta-->
 <div class="section-opciones">
-        <h3>OPCIONES PARA TI</h3>
+        <h3 class="texto-subasta">OPCIONES PARA TI</h3>
         <div class="options-container">
             <div class="option" style="background-image: url('images/subasta/img/opciones_para_ti_1.png');">
                 <div class="info">

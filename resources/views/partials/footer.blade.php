@@ -5,10 +5,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <div class="address">
             <img src="images/logo emilima.png" alt="" height="62">
-            <h4>Dirección</h4>
+            <h4 class="footer-title">Dirección</h4>
             <p>Sede Central:Jr. Cuzco N° 286 - Lima</p>
             <p>Lima - Lima - Perú</p><br>
-            <h4>Teléfono</h4>
+            <h4 class="footer-title">Teléfono</h4>
             <p>012098400</p>
           </div>
 
@@ -16,7 +16,7 @@
 
         <div class="col-lg-3 col-md-6 d-flex">
           <div>
-            <h4>Acerca de</h4>
+            <h4 class="footer-title ">Acerca de</h4>
             <div>
               <p>Quienes somos</p>
               <p>Historia</p>
@@ -30,9 +30,9 @@
 
         <div class="col-lg-3 col-md-6 d-flex">
           <div>
-            <h4>Enlaces de Interés</h4>
+            <h4 class="footer-title">Enlaces de Interés</h4>
             <div>
-              <p>Gestión de bienes muebles estatales</p>
+              <p><a href="#">Gestión de bienes muebles estatales</a></p>
               <p>Mesa de partes</p>
               <p>Tarifario general</p>
               <p>Preguntas frecuentes</p>
@@ -42,7 +42,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6">
-          <h4>Redes Sociales</h4>
+          <h4 class="footer-title">Redes Sociales</h4>
           <div class="social-links d-flex">
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
             <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>

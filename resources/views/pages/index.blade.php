@@ -48,24 +48,57 @@
         <ol class="carousel-indicators"></ol>
 
       </div>
-
-    </section><!-- /Hero Section -->
-
     </section><!-- /Hero Section -->
     <!-- Search Section -->
     <section id="search">
       <div>
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h4>¿QUE ESTAS</h4>
+          <h4 class="title-center">¿QUE ESTAS</h4>
           <h2 class="line-texto">BUSCANDO?</h2>
           <h6>ENCUENTRA EL INMUEBLE IDEAL PARA TI</h6>
         </div><!-- End Search Title -->
-        <div >
+        <div>
+        <nav>
+  <div class="nav nav-tabs tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">COMPRAR</button>
+    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">VENDER</button>
+    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">ALQUILAR</button>
+  </div>
+</nav>
+<div class="tab-content tab-container" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+    <div class="tab-content">
+                  <div class="form-group">
+                    <div class="form-field">
+                      <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
+                      <select id="tipo-vivienda">
+                        <option>Departamento</option>
+                        <option>Casa</option>
+                      </select>
+                    </div>
+                    <div class="form-field">
+                      <label for="ubicacion">Elige tu ubicación:</label>
+                      <select id="ubicacion">
+                        <option>Lima</option>
+                        <option>Otra ciudad</option>
+                      </select>
+                    </div>
+                    <input type="submit" value="Buscar">
+                  </div>
+                </div></div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">Este es un contenido de marcador de posición asociado a la pestaña Inicio . Al hacer clic en otra pestaña, se alternará la visibilidad de esta para la siguiente. El JavaScript de la pestaña intercambia clases para controlar la visibilidad y el estilo del contenido. Puede usarlo con pestañas, píldoras y cualquier otra .navnavegación basada en .</div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">Este es un contenido de marcador de posición asociado a la pestaña Inicio . Al hacer clic en otra pestaña, se alternará la visibilidad de esta para la siguiente. El JavaScript de la pestaña intercambia clases para controlar la visibilidad y el estilo del contenido. Puede usarlo con pestañas, píldoras y cualquier otra .navnavegación basada en .</div>
+</div>
+      </div>
+
+      </div>
+        <div>
           <div class="tabs">
             <div class="tab-container">
-              <div id="tab3" class="tab">
-                <a href="#tab3">ALQUILAR</a>
+              <div id="tab1" class="tab">
+                <a href="#tab1">COMPRAR</a>
+                <div class="row">
                 <div class="tab-content">
                   <div class="form-group">
                     <div class="form-field">
@@ -84,6 +117,8 @@
                     </div>
                     <input type="submit" value="Buscar">
                   </div>
+                </div>
+
                 </div>
               </div>
               <div id="tab2" class="tab">
@@ -108,8 +143,8 @@
                   </div>
                 </div>
               </div>
-              <div id="tab1" class="tab">
-                <a href="#tab1">COMPRAR</a>
+              <div id="tab3" class="tab">
+                <a href="#tab3">ALQUILAR</a>
                 <div class="tab-content">
                   <div class="form-group">
                     <div class="form-field">
@@ -137,7 +172,7 @@
     </section><!-- /Search Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services" class="services section ">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -148,32 +183,34 @@
       <div class="container">
 
         <section class="columnas-section">
+          <div class="row">
           <!-- Columna 1 -->
-          <div class="columna">
-            <img src="images/services/icon1.png" alt="Ícono 1">
+          <div class="columna col-lg-3">
+            <img src="images/services/icon1.png" alt="Ícono 1" width="140" height="140">
             <h5>ASESORÍA <br>INMOBILIARIA</h5>
             <button class="boton">Ver más</button>
           </div>
 
           <!-- Columna 2 -->
-          <div class="columna">
-            <img src="images/services/icon2.png" alt="Ícono 2">
+          <div class="columna col-lg-3">
+            <img src="images/services/icon2.png" alt="Ícono 2" width="140" height="140">
             <h5>SANEAMIENTO <br>FISICO LEGAL</h5>
             <button class="boton">Ver más</button>
           </div>
 
           <!-- Columna 3 -->
-          <div class="columna">
-            <img src="images/services/icon3.png" alt="Ícono 3">
+          <div class="columna col-lg-3">
+            <img src="images/services/icon3.png" alt="Ícono 3" width="140" height="140">
             <h5>SUBASTAS PÚBLICAS <br>Y PRIVADAS</h5>
             <button class="boton"><a href="subasta">Ver más</a></button>
           </div>
 
           <!-- Columna 4 -->
-          <div class="columna">
-            <img src="images/services/icon4.png" alt="Ícono 4">
-            <h5>ADMINISTRACIÓN DE PATRIMONIO INMOBILIARIO</h5>
+          <div class="columna col-lg-3">
+            <img src="images/services/icon4.png" alt="Ícono 4" width="140" height="140">
+            <h5>ADMINISTRACIÓN DE <br> PATRIMONIO INMOBILIARIO</h5>
             <button class="boton">Ver más</button>
+          </div>
           </div>
         </section>
 
@@ -194,8 +231,8 @@
       <img src="images/revista/revista.png" alt="Revista" class="imagen-revista">
     </section><!-- /Revista Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    <!-- Destacados Section -->
+    <section id="destacados" class="destacados section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -233,38 +270,38 @@
           <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="destacados-item">
                 <div class="profile mt-auto">
-                  <img src="images/testimonials/testimonials-1.png" class="testimonial-img" alt="">
+                  <img src="images/destacados/destacados-1.png" class="destacados-img" alt="">
                   <h3>SANEAMIENTO LEGAL</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="destacados-item">
 
                 <div class="profile mt-auto">
-                  <img src="images/testimonials/testimonials-2.png" class="testimonial-img" alt="">
+                  <img src="images/destacados/destacados-2.png" class="destacados-img" alt="">
                   <h3>SUBASTA</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="destacados-item">
 
                 <div class="profile mt-auto">
-                  <img src="images/testimonials/testimonials-3.png" class="testimonial-img" alt="">
+                  <img src="images/destacados/destacados-3.png" class="destacados-img" alt="">
                   <h3>ASESORÍAS Y CAPACITACIONES</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
             <div class="swiper-slide">
-              <div class="testimonial-item">
+              <div class="destacados-item">
 
                 <div class="profile mt-auto">
-                  <img src="images/testimonials/testimonials-4.png" class="testimonial-img" alt="">
+                  <img src="images/destacados/destacados-4.png" class="destacados-img" alt="">
                   <h3>ADMINISTRACIÓN DE PATRIMONIO</h3>
                 </div>
               </div>

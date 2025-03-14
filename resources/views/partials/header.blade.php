@@ -13,10 +13,10 @@
           <li><a href="#">NOSOTROS</a></li>
           <li class="dropdown"><a href="#">SERVICIOS<i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Asesoría Inmobiliaria</a></li>
-              <li><a href="#">Saneamiento Físico Legal</a></li>
+              <li><a href="asesoria">Asesoría Inmobiliaria</a></li>
+              <li><a href="saneamiento">Saneamiento Físico Legal</a></li>
               <li><a href="subasta">Subastas Públicas y Privadas</a></li>
-              <li><a href="#">Administración de Patrimonio Inmobiliario</a></li>
+              <li><a href="administracion">Administración de Patrimonio Inmobiliario</a></li>
             </ul>
           </li>
           <li><a href="#">PROPIEDADES</a></li>

@@ -24,6 +24,11 @@
     <link href="{{ asset('source/vendor/aos/aos.css') }} " rel="stylesheet">
     <link href="{{ asset('source/vendor/fontawesome-free/css/all.min.css') }} " rel="stylesheet">
     <link href="{{ asset('source/vendor/swiper/swiper-bundle.min.css') }} " rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (requerido para la funcionalidad de las pestañas) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Main CSS File -->
     <link href="{{ asset('css/main.css') }} " rel="stylesheet">
@@ -52,7 +57,7 @@
     <!-- Main JS File -->
     <script src="{{ asset('js/main.js') }} "></script>
     <!-- JavaScript -->
-    <script src="{{ asset('js/script.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 
     @stack('scripts') {{-- Permite agregar JS extra desde cada vista --}}
 </body>

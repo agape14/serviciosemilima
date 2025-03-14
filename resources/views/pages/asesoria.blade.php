@@ -14,68 +14,33 @@
         <!-- Section Title -->
         <div>    
             <div class="container section-title" data-aos="fade-up">
-            <img src="images/services/icon3.png" alt="Ícono 2" width="100" height="100">
-            <h4>SUBASTAS PÚBLICAS</h4>
-            <h2 class="line-texto">Y PRIVADAS</h2>
+            <img src="images/services/icon1.png" alt="Ícono 1" width="100" height="100">
+            <h4>ASESORÍA</h4>
+            <h2 class="line-texto">INMOBILIARIA</h2>
+          <h6>¿DESEAS COMPRAR, ALQUILAR O SUBASTAR UN INMUEBLE?</h6>
+          <h4>¡ASESORATE CON UN EXPERTO!</h4>
         </div><!-- End Section Title -->
-        <div class="container-publicas">
-            <div class="left-column">
-                <img src="images/subasta/img/subasta-precios.png" alt="Descripción de la imagen" ali>
-            </div>
-            <div class="right-column">
-            <img src="images/subasta/img/botones_subasta.png" alt="Descripción de la imagen">
-                <!--button class="custom-button">
-                    <img src="images/subasta/img/bot subasta 1.png" alt="Lupa" class="icono">
-                    <span class="text">ENCUENTRA TU TERRENO</span>
-                </button>
-                <button class="custom-button">
-                    <img src="images/subasta/img/bot subasta 2.png" alt="Cash" class="icono">
-                    <span class="text">COMPRA TU BASE</span>
-                </button>
-                <button class="custom-button">
-                    <img src="images/subasta/img/bot subasta 3.png" alt="Wa" class="icono">
-                    <span class="text">CONTÁCTANOS</span>
-                </button>
-                <button class="custom-button">
-                    <img src="images/subasta/img/bot subasta 4.png" alt="Doc" class="icono">
-                    <span class="text">PASOS PARA LA INSCRIPCIÓN</span>
-                </button-->
-            </div>
-        </div>
-    </section>
-<!--/fin Seccion primera de imagen de subasta-->
-<!--/Seccion segunda de opciones de subasta-->
-<div class="section-que-es-subasta">
-        <!-- Columna de la imagen -->
-        <div class="column image-column">
-            <img src="images/subasta/img/img subasta video 1.png" alt="Imagen de subasta">
-        </div>
-
-        <!-- Columna del texto -->
-        <div class="column text-column">
-            <h2>¿QUÉ ES UNA SUBASTA?</h2>
-            <p>
-                Una subasta es un proceso de compra y venta de bienes o servicios en el que los compradores pujan por los artículos, y el artículo se vende al mejor postor. Este método se utiliza para determinar el valor de mercado de un artículo y garantizar que se venda al precio más alto posible. Las subastas pueden ser presenciales o en línea, y son comunes en sectores como el arte, los bienes raíces y los vehículos.
-            </p>
-        </div>
-    </div>
-    <!--/Fin Seccion segunda de opciones de subasta-->
-    <!--/Seccion tercera contacto de subasta-->
+        <!--SECCION-->
+        <!--/FIN SECCION-->
     <section>
-        <div class="section-haztusubasta">
+        <div class="section-asesoria">
     <div class="container-subasta">
         <!-- Columna de la imagen -->
         <div class="column image-section">
-            <h1 class="text-haztusubasta">HAZ TU SUBASTA</h1>
-            <h1 class="text-connosotros">CON NOSOTROS</h1>
-            <img src="images/subasta/img/img subasta 2.png" alt="Imagen de subasta">
+            <p>Ofrecemos, a través de nuestros especialistas, orientación y asistencia profesional a personas naturales o jurídicas en la compra, alquiler, subasta o gestión de propiedades inmobiliarias</p>
+            <ul class="lista-con-puntos">
+              <li>Estudios de títulos</li>
+              <li>Búsqueda de Partidas Registrales</li>
+              <li>Estudios del Mercdo Inmobiliario</li>
+            </ul>
+            <img src="images/subasta/img/img asesoria.png" alt="Imagen de subasta">
         </div>
 
         <!-- Columna del formulario -->
-        <div class="column form-section">
-            <h2 class="text-connosotros">CONTACTANOS</h2>
+        <div class="column form-section-asesoria">
+            <h2 class="text-contacto">CONTACTANOS</h2>
             <form>
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <label for="razon-social">Razón Social</label>
                         <input type="text" id="razon-social" name="razon-social" placeholder="Razón Social">
@@ -86,7 +51,7 @@
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <label for="nombres">Nombres</label>
                         <input type="text" id="nombres" name="nombres" placeholder="Nombres">
@@ -97,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="Email">
@@ -108,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <label for="direccion">Dirección</label>
                         <input type="text" id="direccion" name="direccion" placeholder="Dirección">
@@ -119,21 +84,21 @@
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <label for="descripcion">Descripción de la consulta</label>
                         <textarea id="descripcion" name="descripcion" rows="4" placeholder="Descripción de la consulta"></textarea>
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <label for="documentos">Adjuntar documentos necesarios para el análisis de su solicitud</label>
                         <input type="file" id="documentos" name="documentos">
                     </div>
                 </div>
 
-                <div class="form-row">
+                <div class="form-asesoria-row">
                     <div class="col">
                         <button type="submit">Enviar solicitud</button>
                     </div>

@@ -1,39 +1,39 @@
 @extends('layouts.app')
 
-@section('title', 'Inicio - Servicio SemiLima')
+@section('title', 'Inicio - Servicios EmiLima')
 
 @section('content')
 <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+  <section id="hero" class="hero section dark-background">
 
-      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-item active">
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/hero-carousel/emilima-v2-mobile-cover.png">
+          <source media="(min-width: 769px)" srcset="images/hero-carousel/hero-carousel-1.png">
+          <img src="images/hero-carousel/hero-carousel-1.png" alt="Descripción de la imagen" class="header-image">
+        </picture>
+      </div>
+        <!-- End Carousel Item -->
+      <div class="carousel-item">
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/hero-carousel/emilima-v2-mobile-cover.png">
+          <source media="(min-width: 769px)" srcset="images/hero-carousel/hero-carousel-1.png">
+          <img src="images/hero-carousel/hero-carousel-1.png" alt="Descripción de la imagen" class="header-image">
+        </picture>
+      <div class="carousel-container">
+      </div>
+      </div><!-- End Carousel Item -->
 
-        <div class="carousel-item active">
-          <img src="images/hero-carousel/hero-carousel-1.png" alt="">
-
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="images/hero-carousel/hero-carousel-2.png" alt="">
+      <div class="carousel-item">
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/hero-carousel/emilima-v2-mobile-cover.png">
+          <source media="(min-width: 769px)" srcset="images/hero-carousel/hero-carousel-1.png">
+          <img src="images/hero-carousel/hero-carousel-1.png" alt="Descripción de la imagen" class="header-image">
+        </picture>
           <div class="carousel-container">
-            <!--div>
-              <p>Doral, Florida</p>
-              <h2><span>247</span> Venda Road Five</h2>
-              <a href="property-single.html" class="btn-get-started">sale | $ 356.000</a>
-            </div-->
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item">
-          <img src="images/hero-carousel/hero-carousel-3.png" alt="">
-          <div class="carousel-container">
-            <!--div>
-              <p>Doral, Florida</p>
-              <h2><span>247</span> Vitra Road three</h2>
-              <a href="property-single.html" class="btn-get-started">rent | $ 3.000</a>
-            </div-->
           </div>
         </div><!-- End Carousel Item -->
 
@@ -58,118 +58,91 @@
           <h2 class="line-texto">BUSCANDO?</h2>
           <h6>ENCUENTRA EL INMUEBLE IDEAL PARA TI</h6>
         </div><!-- End Search Title -->
-        <div>
-        <nav>
-  <div class="nav nav-tabs tabs" id="nav-tab" role="tablist">
-    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">COMPRAR</button>
-    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">VENDER</button>
-    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">ALQUILAR</button>
+      </div>
+  <!-- Inicio div -->
+  <div>
+  <!-- Pestañas -->
+  <nav>
+  <div class="nav nav-tabs tabs" id="nav-tab" >
+    <button class="nav-link active " id="nav-comprar-tab" data-bs-toggle="tab" data-bs-target="#nav-comprar" type="button" role="tab" aria-controls="nav-comprar" aria-selected="true">COMPRAR</button>
+    <button class="nav-link" id="nav-alquilar-tab" data-bs-toggle="tab" data-bs-target="#nav-alquilar" type="button" role="tab" aria-controls="nav-alquilar" aria-selected="false">ALQUILAR</button>
+    <button class="nav-link" id="nav-subasta-tab" data-bs-toggle="tab" data-bs-target="#nav-subasta" type="button" role="tab" aria-controls="nav-subasta" aria-selected="false">SUBASTA</button>
   </div>
-</nav>
-<div class="tab-content tab-container" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+  </nav>
+  <!-- Contenido de las pestañas -->
+  <div class="tab-content tab-container" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-comprar" role="tabpanel" aria-labelledby="nav-comprar-tab" tabindex="0">
     <div class="tab-content">
-                  <div class="form-group">
-                    <div class="form-field">
+                  <div class="form-group row">
+                    <div class="form-field grid-cols-3">
                       <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
                       <select id="tipo-vivienda">
                         <option>Departamento</option>
                         <option>Casa</option>
                       </select>
                     </div>
-                    <div class="form-field">
+                    <div class="form-field grid-cols-3">
                       <label for="ubicacion">Elige tu ubicación:</label>
                       <select id="ubicacion">
                         <option>Lima</option>
                         <option>Otra ciudad</option>
                       </select>
                     </div>
-                    <input type="submit" value="Buscar">
+                    <div class="form-field grid-cols-3" >
+                    <label for="buscar">Presione para buscar:</label>
+                    <input type="submit" value="Buscar" >
+                    </div>
                   </div>
-                </div></div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">Este es un contenido de marcador de posición asociado a la pestaña Inicio . Al hacer clic en otra pestaña, se alternará la visibilidad de esta para la siguiente. El JavaScript de la pestaña intercambia clases para controlar la visibilidad y el estilo del contenido. Puede usarlo con pestañas, píldoras y cualquier otra .navnavegación basada en .</div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">Este es un contenido de marcador de posición asociado a la pestaña Inicio . Al hacer clic en otra pestaña, se alternará la visibilidad de esta para la siguiente. El JavaScript de la pestaña intercambia clases para controlar la visibilidad y el estilo del contenido. Puede usarlo con pestañas, píldoras y cualquier otra .navnavegación basada en .</div>
+    </div>
+  <div class="tab-pane fade" id="nav-alquilar" role="tabpanel" aria-labelledby="nav-alquilar-tab" tabindex="0">
+  <div class="tab-content">
+                  <div class="form-group row">
+                    <div class="form-field grid-cols-3">
+                      <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
+                      <select id="tipo-vivienda">
+                        <option>Departamento</option>
+                        <option>Casa</option>
+                      </select>
+                    </div>
+                    <div class="form-field grid-cols-3">
+                      <label for="ubicacion">Elige tu ubicación:</label>
+                      <select id="ubicacion">
+                        <option>Lima</option>
+                        <option>Otra ciudad</option>
+                      </select>
+                    </div>
+                    <div class="form-field grid-cols-3" >
+                    <input type="submit" value="Buscar" >
+                    </div>
+                  </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="nav-subasta" role="tabpanel" aria-labelledby="nav-subasta-tab" tabindex="0">
+  <div class="tab-content">
+                  <div class="form-group row">
+                    <div class="form-field grid-cols-3">
+                      <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
+                      <select id="tipo-vivienda">
+                        <option>Departamento</option>
+                        <option>Casa</option>
+                      </select>
+                    </div>
+                    <div class="form-field grid-cols-3">
+                      <label for="ubicacion">Elige tu ubicación:</label>
+                      <select id="ubicacion">
+                        <option>Lima</option>
+                        <option>Otra ciudad</option>
+                      </select>
+                    </div>
+                    <div class="form-field grid-cols-3" >
+                    <input type="submit" value="Buscar" >
+                    </div>
+                  </div>
+    </div>
+  </div>
 </div>
-      </div>
-
-      </div>
-        <div>
-          <div class="tabs">
-            <div class="tab-container">
-              <div id="tab1" class="tab">
-                <a href="#tab1">COMPRAR</a>
-                <div class="row">
-                <div class="tab-content">
-                  <div class="form-group">
-                    <div class="form-field">
-                      <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
-                      <select id="tipo-vivienda">
-                        <option>Departamento</option>
-                        <option>Casa</option>
-                      </select>
-                    </div>
-                    <div class="form-field">
-                      <label for="ubicacion">Elige tu ubicación:</label>
-                      <select id="ubicacion">
-                        <option>Lima</option>
-                        <option>Otra ciudad</option>
-                      </select>
-                    </div>
-                    <input type="submit" value="Buscar">
-                  </div>
-                </div>
-
-                </div>
-              </div>
-              <div id="tab2" class="tab">
-                <a href="#tab2">VENDER</a>
-                <div class="tab-content">
-                  <div class="form-group">
-                    <div class="form-field">
-                      <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
-                      <select id="tipo-vivienda">
-                        <option>Departamento</option>
-                        <option>Casa</option>
-                      </select>
-                    </div>
-                    <div class="form-field">
-                      <label for="ubicacion">Elige tu ubicación:</label>
-                      <select id="ubicacion">
-                        <option>Lima</option>
-                        <option>Otra ciudad</option>
-                      </select>
-                    </div>
-                    <input type="submit" value="Buscar">
-                  </div>
-                </div>
-              </div>
-              <div id="tab3" class="tab">
-                <a href="#tab3">ALQUILAR</a>
-                <div class="tab-content">
-                  <div class="form-group">
-                    <div class="form-field">
-                      <label for="tipo-vivienda">Elige tu tipo de vivienda:</label>
-                      <select id="tipo-vivienda">
-                        <option>Departamento</option>
-                        <option>Casa</option>
-                      </select>
-                    </div>
-                    <div class="form-field">
-                      <label for="ubicacion">Elige tu ubicación:</label>
-                      <select id="ubicacion">
-                        <option>Lima</option>
-                        <option>Otra ciudad</option>
-                      </select>
-                    </div>
-                    <input type="submit" value="Buscar">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- /Search Section -->
+      
+</section><!-- /Search Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section ">
@@ -186,30 +159,30 @@
           <div class="row">
           <!-- Columna 1 -->
           <div class="columna col-lg-3">
-            <img src="images/services/icon1.png" alt="Ícono 1" width="140" height="140">
+          <a href="asesoria"><img src="images/services/icon1.png" alt="Ícono 1" width="140" height="140"></a>
             <h5>ASESORÍA <br>INMOBILIARIA</h5>
-            <button class="boton">Ver más</button>
+            <button class="boton"><a href="asesoria">Ver más</a></button>
           </div>
 
           <!-- Columna 2 -->
           <div class="columna col-lg-3">
-            <img src="images/services/icon2.png" alt="Ícono 2" width="140" height="140">
+          <a href="saneamiento"><img src="images/services/icon2.png" alt="Ícono 2" width="140" height="140"></a>
             <h5>SANEAMIENTO <br>FISICO LEGAL</h5>
-            <button class="boton">Ver más</button>
+            <button class="boton"><a href="saneamiento">Ver más</a></button>
           </div>
 
           <!-- Columna 3 -->
           <div class="columna col-lg-3">
-            <img src="images/services/icon3.png" alt="Ícono 3" width="140" height="140">
+          <a href="subasta"><img src="images/services/icon3.png" alt="Ícono 3" width="140" height="140"></a>
             <h5>SUBASTAS PÚBLICAS <br>Y PRIVADAS</h5>
             <button class="boton"><a href="subasta">Ver más</a></button>
           </div>
 
           <!-- Columna 4 -->
           <div class="columna col-lg-3">
-            <img src="images/services/icon4.png" alt="Ícono 4" width="140" height="140">
+            <a href="administracion"><img src="images/services/icon4.png" alt="Ícono 4" width="140" height="140"></a>
             <h5>ADMINISTRACIÓN DE <br> PATRIMONIO INMOBILIARIO</h5>
-            <button class="boton">Ver más</button>
+            <button class="boton"><a href="administracion">Ver más</a></button>
           </div>
           </div>
         </section>
@@ -340,9 +313,9 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 @endpush
 
 @push('scripts')
-    <script src="{{ asset('js/index.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 @endpush

@@ -1,106 +1,176 @@
-#search {
-    padding: 40px 20px;
-    text-align: center;
-    background-image: url('images/background/busqueda.png');
-    /* Ruta de la imagen de fondo */
-    background-size: cover;
-    /* Cubre toda la sección */
-    background-position: center;
-    /* Centra la imagen */
-    background-repeat: no-repeat;
-    /* Evita que se repita la imagen */
-    color: white;
-    /* Color del texto para que contraste con el fondo */
-  }
+.text-primary {
+    color: #161D2D!important;
+}
 
-  .search-section {
+.text-secondary {
+    color: #004D86!important;
+}
+
+.text-blue-light {
+    color: #1DAEFF!important;
+}
+
+.text-yellow {
+    color: #FFE100!important;
+}
+
+.bg-primary {
+    background: #161D2D!important;
+}
+
+.bg-secondary {
+    background: #004D86!important;
+}
+
+.bg-blue-light {
+    background: #1DAEFF!important;
+}
+
+.bg-warning {
+    background: #FFE100!important;
+}
+
+.btn.btn-primary {
+    color: #FFE100!important;
+    background-color: #161D2D!important;
+    border: 1px solid #161D2D!important;
+}
+
+.btn.btn-primary:hover {
+    color: #161D2D!important;
+    background-color: #FFE100!important;
+    border: 1px solid #FFE100!important;
+}
+
+.btn.btn-secondary {
+    color: #FFFFFF!important;
+    background-color: #004D86!important;
+    border: 1px solid #004D86!important;
+}
+
+.btn.btn-secondary:hover {
+    color: #004D86!important;
+    background-color: #FFFFFF!important;
+    border: 1px solid #004D86!important;
+}
+
+.btn.btn-warning {
+    color: #004D86!important;
+    background-color: #ffe100!important;
+    border: 1px solid #ffe100!important;
+}
+
+.btn.btn-warning:hover {
+    color: #004D86!important;
+    background-color: #b19d04!important;
+    border: 1px solid #b19d04!important;
+}
+
+.border-warning {
+    border-color: #ffe100!important;
+}
+
+@media (min-width: 576px) {
+    .w-sm-50 {
+        width: 50%!important;
+    }
+}
+
+/*--------------------------------------------------------------
+# INDEX SECTION 
+# Section - Que estas buscando
+--------------------------------------------------------------*/
+.p12{
+    font-size: 14px;
+    color: black;
+    font-weight:500;
+}
+.btn-outline-primary:hover
+{
+    background-color: #00bfff;
+    border-color: #00bfff;
+}
+.btn-outline-primary
+{
+    color:#00bfff;
+    border-color: #00bfff;
+}
+/*.section .section-search {
+    background-image: url("/images/background/busqueda.png");
+}
+@media (min-width: 1365px) {
+    .search .search-item:hover {
+        transform: translateY(-10px);
+        border-color: var(--accent-color);
+    }
+
+    .search .search-item:hover h3 {
+        color: var(--accent-color);
+    }
+}*/
+
+#search-section {
+/*    padding: 40px 20px;*/
+    background-image: url("/images/background/busqueda.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*.search-section {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+}*/
 
-  .form-group {
-    display: flex;
-    gap: 40px;
-    align-items: flex-start;
-  }
-
-  .form-field {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .form-field label {
-    font-weight: normal;
-  }
-
-  .form-field select,
-  .form-field input {
-    padding: 10px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-  }
-
-  .form-group input[type="submit"] {
-    background: black;
-    /* Fondo negro */
-    color: white;
-    /* Letras blancas */
-    border: none;
-    cursor: pointer;
-    align-self: flex-end;
-    padding: 10px 20px;
-    border-radius: 10px;
-    transition: background 0.3s;
-  }
-
-  .form-group input[type="submit"]:hover {
-    background: #333;
-    /* Cambio de color al pasar el mouse */
-  }
-
-  /* Sección de fondo celeste */
-  .revista-section {
-    background-color: #27ade2;
-    /* Color celeste */
-    padding: 40px 20px;
+/* -------------------------- */
+/* Sección Revista inmobiliaria */
+.revista-section {
+    /*background-color: #27ade2;
+     Color celeste */
+    /*padding: 40px 20px;*/
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
     overflow: hidden;
-  }
+}
 
-  /* Contenedor del texto y el botón */
-  .texto-container {
-    max-width: 600px;
+/* Contenedor del texto y el botón */
+.texto-container {
+    text-align: -webkit-center;
+    background-color: #27ade2;
+    width: 100%;
+    /*max-width: 600px;*/
     z-index: 1;
-  }
+}
 
-  /* Estilos para los textos */
-  .revista-section h3 {
+/* Estilos para los textos */
+.revista-section h3 {
     margin: 0;
     font-size: 2rem;
-  }
+}
 
-  .revista-section h3.azul {
-    color: #09097a;
+.revista-section h3.azul {
+    color: #02023f;
+    font-weight: bold;
+
     /* Color azul */
-  }
+}
 
-  .revista-section h3.blanco {
+.revista-section h3.blanco {
+    width: 550px;
     color: white;
     /* Color blanco */
     margin-top: 10px;
     font-size: 1.5rem;
-  }
+}
 
-  /* Estilos para el botón */
-  .revista-section .boton {
-    background-color: #09097a;
+/* Estilos para el botón */
+.revista-section .boton {
+    background-color: #04044e;
     /* Color azul */
     color: yellow;
     padding: 10px 20px;
@@ -111,15 +181,15 @@
     font-size: 1rem;
     margin-top: 20px;
     transition: background-color 0.3s;
-  }
+}
 
-  .revista-section .boton:hover {
-    background-color: #0000CC;
+.revista-section .boton:hover {
+    background-color: #0000cc;
     /* Color azul más oscuro al pasar el mouse */
-  }
+}
 
-  /* Estilos para la imagen de la revista */
-  .revista-section .imagen-revista {
+/* Estilos para la imagen de la revista */
+.revista-section .imagen-revista {
     position: absolute;
     right: 0;
     top: 50%;
@@ -128,125 +198,826 @@
     /* Ajusta la altura de la imagen */
     max-height: 300px;
     /* Limita el tamaño máximo */
-    z-index: 0;
-  }
+    z-index: 1;
+}
 
-  /* Sección de fondo con imagen */
-  .contacto-section {
-    background-image: url('/images/background/contact.png');
-    /* Ruta de la imagen de fondo */
+/*---------------------------*/
+/* Sección para mas consulta */
+
+#contact-section {
+    background-image: url("../images/background/contact.png");
     background-size: cover;
-    /* Cubre toda la sección */
     background-position: center;
-    /* Centra la imagen */
-    padding: 60px 20px;
-    text-align: center;
-    color: white;
-    position: relative;
-    overflow: hidden;
-  }
+}
 
-  /* Estilos para el texto principal */
-  .contacto-section h3 {
-    font-size: 2rem;
-    margin: 0 0 20px 0;
-    color: white;
-  }
-
-  /* Contenedor de botones */
-  .botones-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    /* Espacio entre botones */
-    margin-bottom: 20px;
-  }
-
-  /* Estilos para los botones */
-  .contacto-section .boton {
-    background-color: yellow;
-    /* Fondo amarillo */
-    color: rgb(20, 20, 24);
-    /* Texto azul */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    /* Radio de 20px */
-    cursor: pointer;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    /* Espacio entre ícono y texto */
-    transition: background-color 0.3s;
-  }
-
-  .contacto-section .boton:hover {
-    background-color: #FFD700;
-    /* Color amarillo más oscuro al pasar el mouse */
-  }
-
-  /* Estilos para el texto del correo */
-  .contacto-section .correo {
-    font-size: 1.2rem;
-    color: white;
-    margin-top: 20px;
-  }
-
-  /* Estilos para los íconos */
-  .contacto-section .icono {
-    width: 20px;
-    /* Tamaño del ícono */
-    height: 20px;
-  }
-
-  /* Sección de columnas */
-  .columnas-section {
+/*------------------------------------------*/
+/* Sección de columnas Nuestros Servicios */
+.columnas-section {
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
     background-color: white;
-  }
+}
 
-  /* Estilos para cada columna */
-  .columna {
+/* Estilos para cada columna */
+.columna {
     text-align: center;
-    max-width: 200px;
-  }
+    /*max-width: 500px;*/
+    padding-bottom: 10px;
+}
 
-  /* Estilos para el ícono */
-  .columna img {
-    width: 100px;
-    height: 100px;
+/* Estilos para el ícono */
+.columna img {
+    width: 140px;
+    height: 140px;
     margin-bottom: 20px;
-  }
+}
 
-  /* Estilos para el título */
-  .columna h5 {
+/* Estilos para el título */
+.columna h5 {
     font-size: 1rem;
     color: black;
     margin: 0 0 15px 0;
-  }
+}
 
-  /* Estilos para el botón */
-  .columna .boton {
+/* Estilos para el botón */
+.columna .boton {
     background-color: white;
-    color: #00BFFF;
+    color: #00bfff;
     /* Color celeste */
-    padding: 10px 20px;
-    border: 2px solid #00BFFF;
+    padding: 10px 30px;
+    border: 2px solid #00bfff;
     /* Borde celeste */
-    border-radius: 20px;
+    border-radius: 25px;
     /* Radio de 20px */
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s, color 0.3s;
-  }
+}
 
-  /* Efecto hover para el botón */
-  .columna .boton:hover {
-    background-color: #00BFFF;
+/* Efecto hover para el botón */
+.columna .boton:hover {
+    background-color: #00bfff;
     /* Fondo celeste */
     color: white;
     /* Texto blanco */
-  }
+}
+
+.boton a:hover {
+    color: rgb(255, 255, 255);
+}
+/*------------------------------------------*/
+
+/* Estilos para el texto h2 con lineas amarillas */
+.line-title::after {
+    content: "";
+    display: block;
+    width: 85px;
+    height: 4px;
+    background: #FFE100;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+}
+
+/*-----------------------------*/
+/* seccion segunda de subasta */
+/*-----------------------------*/
+
+.section-opciones {
+    padding: 20px;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.texto-subasta {
+    color: #069289;
+    text-align: left;
+    margin-left: 120px;
+    font: bold;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.option {
+    width: 243px;
+    height: 395px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.info {
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 94%;
+    padding-right: 5px;
+}
+
+.info p {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    font: bold;
+}
+
+.more-info {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    background-color: white;
+    color: red;
+}
+
+.view-all {
+    background-color: #034a84;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.view-all:hover {
+    background-color: yellow;
+    color: black;
+}
+/*-----------------------------*/
+/* fin seccion segunda de subasta */
+/*-----------------------------*/
+/*-----------------------------*/
+/* seccion tercera contacto de subasta */
+/*-----------------------------*/
+
+.section-subasta-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.left-column-contacto,
+.right-column-contacto {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-column-contacto {
+    text-align: center;
+}
+
+.blue-text {
+    color: #004d85;
+}
+
+.green-text {
+    color: green;
+}
+
+.left-column-contacto img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-row input,
+.form-row textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+.form-row textarea {
+    height: 100px;
+}
+
+.form-row button {
+    background-color: #004d85;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-row button:hover {
+    background-color: yellow;
+    color: black;
+}
+/*-----------------------------*/
+/* fin seccion tercera contacto de subasta */
+/*-----------------------------*/
+/*-----------------------------*/
+/* Inicio de Pestañas de búsquedas*/
+/*-----------------------------*/
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.tabs * {
+    box-sizing: border-box;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0px;
+}
+
+/* Pestañas (botones) */
+.nav-tabs {
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap; /* Permite que las pestañas se envuelvan en pantallas pequeñas */
+    border: 0px;
+}
+.nav-tabs .nav-link {
+    background-color: white; /* Fondo blanco para pestañas inactivas */
+    color: #333; /* Color del texto */
+    border: 2px solid #ffe100; /* Borde para las pestañas */
+    border-bottom: 3px solid #ffe100; /* Borde inferior para las pestañas */
+    margin-right: 0px; /* Espacio entre pestañas */
+    border-radius: 0px 15px 0 0; /* Bordes redondeados solo en la parte superior */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+
+.nav-tabs .nav-link.active {
+    background-color: #ffe100; /* Fondo amarillo para la pestaña activa */
+    color: #000; /* Color del texto para la pestaña activa */
+    border: 3px solid #ffe100; /* Borde inferior para que coincida con el fondo */
+    
+}
+.nav-link {
+    color: #000000;
+    padding: 10px 20px;
+    background-color: #ffe100;
+}
+
+.nav-link.active {
+    background-color: #ffe100;
+    color: #fff;
+    border-color: #ffe100;
+}
+
+ul#search-form li:nth-child(2) {
+    z-index: 2;
+}
+
+ul#search-form {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+}
+
+#search-form li {
+    margin-left: -10px;
+}
+
+#search-form li:first-child {
+    margin-left: 0;
+    z-index: 3;
+}
+
+/* Contenido de las pestañas */
+.tab-content {
+    padding: 20px;
+    background-color: #ffe100;
+    border: 1px solid #ffe100;
+    border-radius: 15px;
+    margin-top: -3px;
+    align-content: center;
+    border-top: none; /* Elimina el borde superior para que se una con las pestañas */
+    border-radius: 0 0 5px 5px; /* Bordes redondeados solo en la parte inferior */
+    width: 100%;
+}
+/*.tab:target .tab-content */
+/* Formulario */
+.form-group.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-field.grid-cols-3 {
+    flex: 1 1 calc(33.333% - 10px); /* Tres columnas por defecto */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+    padding-top: 20px;
+}
+
+.form-field select,
+.form-field input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-link {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .form-group.row {
+        flex-direction: column;
+    }
+
+    .form-field.grid-cols-3 {
+        flex: 1 1 100%; /* Una columna en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-content {
+        padding: 10px;
+    }
+
+    .form-field select,
+    .form-field input[type="submit"] {
+        font-size: 14px;
+    }
+}
+
+/* Fin de Pestañas de búsquedas*/
+/*-----------------------------*/
+/*-----------------------------*/
+/* INICIO DE SERVICIOS SUBASTA */
+/*-----------------------------*/
+/*-----------------------------*/
+/* seccion subastas de subastas publicas y privadas */
+/*-----------------------------*/
+
+.section-subasta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.container-publicas {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las columnas se apilen en móviles */
+    gap: 10px; /* Espacio entre columnas */
+    padding: 20px;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+/* Columnas */
+.left-column,
+.right-column {
+    flex: 1; /* Ambas columnas ocupan el mismo espacio */
+    min-width: 300px; /* Ancho mínimo para evitar que se hagan muy pequeñas */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+/* Imagen en la columna izquierda */
+.left-column img {
+    width: 100%;
+    max-width: 446px;
+    height: auto;
+    display: block;
+    align-items: center; /* Centra el contenido de la columna */
+}
+
+/* Botones en la columna derecha */
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre botones */
+}
+
+.custom-button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #ffd700 50px, #ffffff 50px);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    width: 90%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.custom-button .icon {
+    background-color: #ffd700;
+    color: #004d85;
+    padding: 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.custom-button .text {
+    color: #004d85;
+    font-weight: bold;
+    text-align: right;
+    padding-left: 20px;
+}
+
+/* Responsividad para móviles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Apila las columnas verticalmente */
+    }
+
+    .left-column,
+    .right-column {
+        flex: 1 1 100%; /* Ocupa el 100% del ancho en móviles */
+    }
+}
+/*-----------------------------*/
+/* fin seccion subastas - subastas publicas y privadas  */
+/*-----------------------------*/
+/*--------------------------------------------------------------*/
+/* section subasta de Haz tu subasta*/
+/*--------------------------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-haztusubasta {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ccc;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+.container-subasta {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.column {
+    flex: 1;
+    min-width: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido de la columna */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 646px;
+    height: auto;
+}
+
+.form-section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text-haztusubasta {
+    color: #05055c;
+    font-style: normal;
+}
+.text-connosotros {
+    color: #1680e4;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-row .col {
+    flex: 1;
+    min-width: 150px;
+    padding: 5px;
+}
+
+.form-row .col label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form-row .col input,
+.form-row .col textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.form-row .col textarea {
+    resize: vertical;
+}
+
+.form-row .col button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #004d85;
+    color: white;
+    cursor: pointer;
+}
+
+.form-row .col button:hover {
+    background-color: #ffe100;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 1 1 100%;
+    }
+}
+/*--------------------------------------------------------------*/
+/* End section subasta de haz tu subasta*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/* Section subasta de ¿que es una subasta?*/
+/*--------------------------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-que-es-subasta {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #004d85;
+    padding: 20px;
+    color: white;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido de la columna */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.image-column img {
+    width: 100%;
+    max-width: 445px;
+    height: auto;
+}
+
+.text-column h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.text-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 500px; /* Limita el ancho del texto para mejor lectura */
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 1 1 100%;
+    }
+
+    .image-column {
+        text-align: center;
+    }
+}
+/*--------------------------------------------------------------*/
+/* Fin Section subasta de ¿que es una subasta?*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/* SECTION ASESORIA*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/* section Asesoria-contacto*/
+/*--------------------------------------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-asesoria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ccc;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+.container-asesoria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.column {
+    flex: 1;
+    min-width: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido de la columna */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 646px;
+    height: auto;
+}
+.text-contacto {
+    color: fff;
+}
+.form-section-asesoria {
+    background-color: #004d85;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section-asesoria h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-asesoria-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.form-asesoria-row .col {
+    flex: 1;
+    min-width: 150px;
+    padding: 5px;
+}
+
+.form-asesoria-row .col label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    color: white;
+}
+
+.form-asesoria-row .col input,
+.form-asesoria-row .col textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.form-asesoria-row .col textarea {
+    resize: vertical;
+}
+
+.form-asesoria-row .col button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #ffe100;
+    color: black;
+    cursor: pointer;
+}
+
+.form-asesoria-row .col button:hover {
+    background-color: #ffe100;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 1 1 100%;
+    }
+}
+.lista-con-puntos {
+    list-style-type: none; /* Elimina los puntos predeterminados */
+    padding-left: 0;
+}
+.lista-con-puntos li {
+    position: relative;
+    padding-left: 10px; /* Espacio para el punto personalizado */
+    margin-bottom: 10px; /* Espacio entre elementos */
+}
+.lista-con-puntos li::before {
+    content: "•"; /* Punto personalizado */
+    position: absolute;
+    left: 0;
+    color: rgb(14, 171, 233); /* Color del punto */
+    font-size: 20px; /* Tamaño del punto */
+}
+/*--------------------------------------------------------------*/
+/* End section Asesoria-contacto*/
+/*--------------------------------------------------------------*/
+.profile h3 {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
